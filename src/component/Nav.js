@@ -5,6 +5,8 @@ import { RiMovie2Fill } from 'react-icons/ri';
 
 
 const Nav = () => {
+
+    
     return (
         <div>
             <nav>

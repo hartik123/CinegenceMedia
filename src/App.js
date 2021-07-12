@@ -15,9 +15,8 @@ import Product from './pages/Product';
 
 function App() {
 
-  
+  const [state, setState] = useState(false);
 
-  const image1= "/images/Building.jpg";
 
 
   const inlineStyle={

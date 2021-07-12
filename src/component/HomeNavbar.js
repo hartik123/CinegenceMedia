@@ -1,6 +1,7 @@
 import React, { useState,useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import cine from '../images/cine.JPG';
+import {animateScroll as scroll} from 'react-scroll';
 import './HomeNavbar.css';
 
 
@@ -22,6 +23,10 @@ const HomeNavbar = () => {
         window.addEventListener('scroll', handleScroll)
         
     })
+
+    const scrollToTop=()=>{
+        scroll.scrollToTop();
+    }
 
     let navbarClasses=['navbar'];
     if(scrolled){
@@ -45,7 +50,7 @@ const HomeNavbar = () => {
                     fontWeight: "bold",
                     color: "black"
                 }}>
-                    <li><Link to="/" onClick={()=> window.location.reload(false)}><img src={cine} style={{width: "40px", height: "auto"}}/></Link></li>
+                    <li><Link to="/" ><img src={cine} style={{width: "40px", height: "auto"}} onClick={()=>scrollToTop()} /></Link></li>
                     <li><Link to="/" >ABOUT</Link></li>
                     <li>  <Link to="/services">SERVICES</Link></li>
                     <li>  <Link to="/reels" >REELS</Link></li>

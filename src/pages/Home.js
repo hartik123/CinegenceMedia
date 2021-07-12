@@ -9,7 +9,7 @@ import { useHistory } from 'react-router-dom';
 import OwnerInformation from './OwnerInformation';
 import Contact from './Contact';
 
-const Home = () => {
+const Home = (props) => {
     return (
         <div id="home">
             <HomeNavbar />
