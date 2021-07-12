@@ -1,0 +1,53 @@
+.formhead{
+margin:  2rem auto;
+width: 50%; 
+}
+
+label{
+    margin: 1rem 0rem;
+    font-size: 1.7rem;
+}
+
+.labels{
+    display: inline-block;
+    margin: 0.6rem 0rem;
+}
+
+
+input{
+    height: 2.2rem;
+    font-size: 1.5rem;
+    width: 100%;
+    border: black solid 2px;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    
+}
+textarea{
+    border: black solid 2px;
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+
+.btn{
+    text-align:left;
+    font-size: 1.3rem;
+    width: 5.5rem;
+    height: 2.5rem;
+    border-radius: 4rem;
+    background-color: black;
+    color: #fff;
+}
+textarea{
+    width: 100%
+}
+
+.contact{
+    margin: opx;
+    padding: 0px;
+}

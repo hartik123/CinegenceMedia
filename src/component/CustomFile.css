@@ -1,0 +1,12 @@
+.imgStyle{
+    opacity: 0.8
+}
+
+.imgStyle:hover{
+    opacity: 1
+}
+
+
+a:hover{
+    text-decoration: none;
+}

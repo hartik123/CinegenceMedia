@@ -1,0 +1,14 @@
+/* #about{
+    background-image: url('Moon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: #fff;
+    margin: 0px;
+    padding: 1rem;
+} */
+
+#about{
+    background-color: #000;
+    color: #999;
+}
