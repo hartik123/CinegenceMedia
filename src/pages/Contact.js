@@ -125,7 +125,7 @@ const Contact = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         width: "100%",
-        height: "100%"
+        minHeight: "100vh"
     }
     return (
         <div id="home" style={contactStyle}>
@@ -134,36 +134,36 @@ const Contact = () => {
                 <h6 style={{ width: "600", margin: "1rem 14rem" ,color: "white"}}>Open in Google maps</h6>
             </div>
             <div style={{ backgroundColor: "rgb(54, 7, 7)", width: "600px", margin: "5rem" }}>
-
+<h1 style={{textAlign: "center", color: "white", paddingTop: "2rem"}}>Contact Us</h1>
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", marginTop: "5rem" }}>
                     <div ><center>
                     <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>BUSINESS ENQUIRY</span><br />
 
-                        <a href="mailto:business@redchillies.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>business@redchillies.com
+                        <a href="mailto:business@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>business@cinegencemedia.com
                         </a>  </center>              </div>
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}> WORK WITH US</span><br />
 
-                            <a href="mailto:work@redchillies.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>work@redchillies.com
+                            <a href="mailto:work@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>work@cinegencemedia.com
                             </a></center>                  </div>
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>PRESS ENQUIRY</span><br />
 
-                            <a href="mailto:press@redchillies.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>press@redchillies.com
+                            <a href="mailto:press@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>press@cinegencemedia.com
                             </a></center>                  </div>
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>CREATIVE ENQUIRY</span><br />
 
-                            <a href="mailto:creative@redchillies.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>creative@redchillies.com
+                            <a href="mailto:creative@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>creative@cinegencemedia.com
                             </a></center>  </div>
 
                     <div>
                         <center>
                             <span style={{ color: "white", fontWeight: "bold", margin: "1rem" }}>MARKETING</span> <br />
-                            <a href="mailto:creative@redchillies.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>creative@redchillies.com
+                            <a href="mailto:creative@cinegencemedia.com" style={{ fontSize: "1.2rem", fontWeight: "600", color: "#f20707", opacity: "0.7", margin: "1rem" }}>creative@cinegencemedia.com
                             </a></center>    </div>
                 </div>
             </div>

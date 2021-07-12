@@ -12,11 +12,11 @@ import Product from './pages/Product';
 
 
 
+// export const UserContext = React.createContext();
 
 function App() {
 
   const [state, setState] = useState(false);
-
 
 
   const inlineStyle={
@@ -32,8 +32,9 @@ function App() {
   
   return (
     <div className="App">
+      
         <Navbar />
-               
+               {/* <UserContext value={{state, setState}}> */}
 
       {/* <Projects 
       title="Projects"
@@ -54,6 +55,7 @@ function App() {
       dark={true}
       id="home"
       />
+      {/* </UserContext> */}
 
    
       </div>

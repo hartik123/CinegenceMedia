@@ -1,12 +1,16 @@
-import React, { useState,useEffect} from 'react';
+import React, { useState,useEffect, useContext} from 'react';
 import { Link } from 'react-router-dom';
 import cine from '../images/cine.JPG';
 import {animateScroll as scroll} from 'react-scroll';
 import './HomeNavbar.css';
+// import {UserContext} from '../App';
 
 
 const HomeNavbar = () => {
     const [scrolled,setScrolled] = useState(false);
+
+    // const prop = useContext(UserContext);
+
     const handleScroll=() =>{
         const offset = window.scrollY;
         if(offset>800){
@@ -52,7 +56,7 @@ const HomeNavbar = () => {
                 }}>
                     <li><Link to="/" ><img src={cine} style={{width: "40px", height: "auto"}} onClick={()=>scrollToTop()} /></Link></li>
                     <li><Link to="/" >ABOUT</Link></li>
-                    <li>  <Link to="/services">SERVICES</Link></li>
+                    <li>  <Link to="/services" >SERVICES</Link></li>
                     <li>  <Link to="/reels" >REELS</Link></li>
                     <li><Link to="/contact">CONTACT</Link></li>
                     

@@ -7,7 +7,7 @@ const OwnerInformation = () => {
     return (
         <div style= {{display: "flex",marginLeft:"4rem  "}}>
         <div style={{minHeight: "100vh", display: "inline-block"}}>
-            <button style={{color: "white", backgroundColor:"black", borderRadius: "1rem", marginLeft:"1rem"}} onClick={()=>history.goBack()}>Go back</button>
+            <button style={{color: "white", backgroundColor:"black", borderRadius: "1rem", margin:"1rem"}} onClick={()=>history.goBack()}>Go back</button>
             <CardComponent />
         </div>
         <div style= {{paddingTop: "3rem", margin: "0px auto"}}>
